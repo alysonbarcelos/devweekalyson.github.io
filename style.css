@@ -5,3 +5,148 @@
     list-style: none;
     font-family: 'Roboto', sans-serif;
 }
+
+.resume-contents {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section {
+    grid-column: span 2;
+    height: 100%;
+    background-color: #00204A;
+}
+
+.right-section {
+    grid-column: span 5;
+    height: 100%;
+    background-color: #4B6982;
+;
+    border-radius: 0px 50px 0px 0px;
+}
+
+.left-section-contents{
+    padding: 2rem 2rem;
+}
+
+.profile {
+    width: 100%;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.profile .profile-image {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.name {
+    color: #D6DBDF;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    text-align: center;
+    line-height: 35.16px;
+}
+
+.profession {
+    color: #FDB44B;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 23.44px;
+}
+
+/* .contact-info { border-bottom: 2px solid #1B2631; } */
+.left-title {
+    color: #FDB44B;
+    font-size: 20px;
+    padding-top: 1rem;
+    letter-spacing: 2px;
+    line-height: 23.44px;
+   }
+
+.contact-info ul {
+    padding-top: 1rem;
+}
+
+.contact-info ul li,
+.references ul li {
+    padding: .4rem 0;
+    color: #D6DBDFAF;
+}
+
+.contact-info ul li i,
+.references ul li i {
+    padding-right: 1rem;
+    font-size: 18px;
+    color: #D6DBDFAF;
+}
+
+.skills ul {
+    padding-top: 1.5rem;
+}
+.skills ul li p {
+    padding: .4rem 0;
+    color: #D6DBDFAF;
+}
+
+.right-section {
+    padding: 2rem 2rem;
+}
+
+.right-title {
+    color: #70C6C7;
+    letter-spacing: 2px;
+    font-size: 40px;
+    line-height: 46.88px;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+
+.about-me-contents {
+    font-size: 18px;
+    color: #F1F8FD;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
+}
