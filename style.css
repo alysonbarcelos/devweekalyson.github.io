@@ -127,26 +127,32 @@
 
 .exp-company-name,
 .education-school-name,
-.awards-company-name {
+.awards-company-name,
+.awards-name,
+.exp-position,
+.education-subject {
     font-size: 25px;
-    font-weight: bold;
+    font-weight: normal;
+    color: #FDB44B;
+    text-transform: uppercase;
+    padding: 5px 0 5px 0;
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
-    font-size: 18px;
+    font-weight: normal;
 }
 
 .exp-position,
 .education-subject,
 .awards-name {
-    font-size: 25px;
+    font-weight: normal;
 }
 
 .exp-desc,
 .education-desc,
 .awards-desc {
     font-size: 16px;
-    padding-left: 5px;
+    
 }
